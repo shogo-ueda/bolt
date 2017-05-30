@@ -1,21 +1,5 @@
 @media (max-width: 766px) {
 
-.bars {
-  display: block;
-}
-
-.bars {
-  width: 30px;
-  height: 30px;
-  font-size: 25px;
-  color: #ddd;
-  cursor: pointer;
-  cursor: pointer;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
-  float: right;
-}
 
 .bars-open__link {
   display: block;
@@ -31,10 +15,6 @@
   background-color: #ccc;
 }
 
-/*.contact-btntn {
-  display: none;
-}*/
-
 .work-comment {
   font-size: 16px;
   font-style: bold;
@@ -45,15 +25,14 @@
   display:block;
 }
 
-.our-skill-flex,.sns-box,.OUR-SKILLS {
+.our-skill-flex,.sns-box,.skills {
   display: block;
   text-align: center;
 }
 
 #our-skill-box {
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
 .smtp-pict {
@@ -73,9 +52,7 @@
   line-height: 90px;
   cursor: pointer;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
 }
 
 .work-lower-box {
@@ -99,10 +76,10 @@
 }
 
 .FREE-BOOTSTRAP-THEMES {
-    color: #c0c0c0;
-    font-size: 30px;
-    margin-bottom: 130px;
-    margin-top : 5px;
+  color: #c0c0c0;
+  font-size: 30px;
+  margin-bottom: 130px;
+  margin-top : 5px;
 }
 
 .Bolt-Theme {
@@ -144,149 +121,25 @@
   display: block;
 }
 
-}
-
-/*ここまでスマホ*/
-
-@media screen and (min-width:767px) {
-
-
-.bars-open,.bars-outer,.bars {
-  display: none;
-}
-
-.contact-btn {
+.menu-bar {
+  border-top: 2px solid grey;
+  width: 20px;
+  padding: 2px;
   display: block;
-}
-
-.contact-btn {
-  float: right;
-  background-color: #74cfae;
-  border: none;
-  font-size: 12px;
-  padding: 14px 12px;
-  font-weight: 800;
-}
-
-.our-skill-flex,.sns-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  }
-
-#our-skill-box {
-  color: white;
-  padding-top: 70px;
-  padding-bottom: 100px;
-}
-
-.common-our-skill {
-  margin-right: 180px;
-}
-
-/*.common-our-skill:last-child {
-  margin-right: -180px;
-}
-*/
-.work-comment {
-  font-size: 16px;
-  margin-right: 90px;
-  font-style: bold;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.smtp-pict {
-  display:inline-block;
-  margin-bottom: 0;
-  text-align: center;
-  width: 60%;
-  vertical-align: middle;
-}
-
-.smtp-comment-box {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.FREE-BOOTSTRAP-THEMES {
-  color: #c0c0c0;
-  font-size: 30px;
-  margin-bottom: 250px;
-}
-
-.Bolt-Theme {
-  color: #74cfae;
-  font-size: 90px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  margin-top: 340px;
-}
-
-.smtp-comment-box {
-  width: 30%;
-}
-
-.send-email-wrapper {
-margin-top: 40px;
-}
-
-.WHAT-WE-CAN-DO-text {
-  padding-bottom: 25px
-}
-
-.work-lower-box {
-    margin-top: 80px;
-    margin-bottom: 70px;
-    box-sizing: border-box;
-}
-
-.margin-top-layout-upper,.margin-top-layout-lower {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.snses {
-  width: 185px;
-  line-height: 90px;
-  cursor: pointer;
-  text-align: center;
   margin: 0 auto;
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-
-.work-grid-middle {
-  margin: 0 100px;
-}
-
-.common-our-skill {
-  margin: 0 auto;
-}
 
 }
 
-/*ここまでpc*/
-
-  @media screen and 
-  (min-width: 767px) and 
-  (max-device-width: 1199px) {
+.menu-bar:first-child {
+  margin-top: 5px;
+}
 
 .bars {
   display: block;
-}
-
-.bars {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 40px;
   font-size: 25px;
   color: #ddd;
-  cursor: pointer;
   cursor: pointer;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -294,39 +147,50 @@ margin-top: 40px;
   float: right;
 }
 
-.bars-open__link {
+.send-email-wrapper {
+  margin-top: 30px;
+}
+
+.common-our-skill {
+  margin-bottom: 50px;
+}
+
+.skills {
+  margin-bottom: 25px;
+}
+
+.smtp-comment-box {
+  padding-bottom: 25px;
+}
+
+.cando {
+  margin-top: 25px;
+}
+
+}
+
+/*ここまでスマホ*/
+
+  @media screen and (min-width:767px) {
+
+  .bars-open,.bars-outer,.bars {
+  display: none;
+  }
+
+  .contact-btn {
   display: block;
+  }
+
+  .contact-btn {
+  float: right;
   background-color: #74cfae;
   border: none;
   font-size: 12px;
   padding: 14px 12px;
   font-weight: 800;
-}
+  }
 
-.bars:hover,.bars:active {
-  background-color: #ccc;
-}
-
-.contact-btntn {
-  display: none;
-}
-
-.work-comment {
-  font-size: 16px;
-  font-style: bold;
-}
-
-.smtp-comment-box {
-  text-align: center;
-  display:block;
-}
-
-.common-our-skill {
-  margin-right: 88px;
-  margin: 0 auto;
-}
-
-.sns-box {
+  .our-skill-flex,.sns-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -334,76 +198,83 @@ margin-top: 40px;
   text-align: center;
   }
 
-#our-skill-box {
+  #our-skill-box {
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+  padding-top: 70px;
+  padding-bottom: 100px;
+  }
 
-.our-skill-flex,.OUR-SKILLS {
-  display: block;
-  text-align: center;
-}
+  .common-our-skill {
+  margin-right: 180px;
+  margin: 0 auto;
+  }
 
-.smtp-pict {
-  display:inline-block;
-  margin-bottom: 0;
-  text-align: center;
-  width: 60%;
-  vertical-align: middle;
-}
-
-.smtp {
-  text-align: center;
-}
-
-
-.work-lower-box {
-  text-align: center;
-}
-
-.work-comment {
-  font-size: 16px; 
+  .work-comment {
+  font-size: 16px;
+  margin-right: 90px;
   font-style: bold;
   display: inline-block;
   vertical-align: middle;
-}
+  }
 
-.smtp-comment-box {
+  .smtp-pict {
+  display:inline-block;
+  margin-bottom: 0;
   text-align: center;
-  display: block;
-}
+  width: 45%;
+  vertical-align: middle;
+  }
 
-.smtp-comment-box,.smtp-pict {
-  margin: 0 auto;
-}
+  .smtp-comment-box {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  }
 
-.FREE-BOOTSTRAP-THEMES {
-    color: #c0c0c0;
-    font-size: 30px;
-    margin-bottom: 130px;
-    margin-top : 5px;
-}
+  .FREE-BOOTSTRAP-THEMES {
+  color: #c0c0c0;
+  font-size: 30px;
+  margin-bottom: 250px;
+  }
 
-.Bolt-Theme {
+  .Bolt-Theme {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 20px;
-  margin-top: 250px;
-  word-break:break-all;
-}
+  margin-top: 340px;
+  }
 
-.margin-top-layout-upper,.margin-top-layout-lower {
-  display: block;
-}
-
-.work-comment {
-  display: block;
+  .cando-text {
+      padding-bottom: 25px
+  width: 80%;
   margin: 0 auto;
-}
+  }
 
-.snses {
+  .send-email-wrapper {
+  margin-top: 40px;
+  }
+
+  .cando-text {
+  padding-bottom: 25px
+  width: 80%;
+  }
+
+  .work-lower-box {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+  }
+
+  .margin-top-layout-upper,
+  .margin-top-layout-lower {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+  .snses {
   width: 185px;
   line-height: 90px;
   cursor: pointer;
@@ -411,11 +282,193 @@ margin-top: 40px;
   margin: 0 auto;
   margin-top: 200px;
   margin-bottom: 200px;
+  }
+
+  .work-grid-middle {
+  margin: 0 100px;
+  }
+
+  .send-email-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  }
+
+.skills {
+  margin-bottom: 15px;
+  }
+
+.smtp-comment-box {
+  display: inline-block;
+  width: 55%;
+  }
+
+.smtp-pict {
+  display: inline-block;
+  width: 40%;
+  }
+
 }
+
+/*ここまでpc*/
+
+    @media screen and (min-width: 767px) and (max-device-width: 1199px) {
+
+    .bars {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: #ddd;
+    cursor: pointer;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    float: right;
+    }
+
+    .bars-open__link {
+    display: block;
+    background-color: #74cfae;
+    border: none;
+    font-size: 12px;
+    padding: 14px 12px;
+    font-weight: 800;
+    }
+
+    .bars:hover,.bars:active {
+    background-color: #ccc;
+    }
+
+    .contact-btntn {
+    display: none;
+    }
+
+    .work-comment {
+    font-size: 16px;
+    font-style: bold;
+    }
+
+    .smtp-comment-box {
+    text-align: center;
+    display:block;
+    width: 100%;
+    }
+
+    .common-our-skill {
+    margin-right: 88px;
+    margin: 0 auto;
+    }
+
+    .sns-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    #our-skill-box {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .our-skill-flex,.skills {
+    display: block;
+    text-align: center;
+    }
+
+    .smtp-pict {
+    display:inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    width: 60%;
+    vertical-align: middle;
+    }
+
+    .smtp {
+    text-align: center;
+    }
+
+    .work-lower-box {
+    text-align: center;
+    }
+
+    .work-comment {
+    font-size: 16px; 
+    font-style: bold;
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+    .smtp-comment-box {
+    text-align: center;
+    display: block;
+    }
+
+    .smtp-comment-box,.smtp-pict {
+    margin: 0 auto;
+    }
+
+    .FREE-BOOTSTRAP-THEMES {
+    color: #c0c0c0;
+    font-size: 30px;
+    margin-bottom: 130px;
+    margin-top : 5px;
+    }
+
+    .Bolt-Theme {
+    color: #74cfae;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 250px;
+    word-break:break-all;
+    }
+
+    .margin-top-layout-upper,
+    .margin-top-layout-lower {
+    display: block;
+    }
+
+    .work-comment {
+    display: block;
+    margin: 0 auto;
+    }
+
+    .snses {
+    width: 185px;
+    line-height: 90px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    }
+
+    .common-our-skill {
+    margin-bottom: 88px;
+    }
+
+    .common-our-skill:first-child {
+    margin-top: 25px;
+    }
+
+    .cando-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    }
+
+    .cando {
+    margin-top: 25px;
+    }
 }
 
 /*タブレット
-*/.bolt-icon {
+*/
+.bolt-icon {
   float: left;
 }
 
@@ -510,16 +563,16 @@ a {
 }
 
 /* */
-/*WHAT-WE-CAN-DO
+/*cando
 */
 
-.WHAT-WE-CAN-DO {
+.cando {
   color: white;
   font-size: 24px;
   margin-bottom: 35px;
 }
 
-.WHAT-WE-CAN-DO-text {
+.cando-text {
   font-size: 20px;
 }
 
@@ -541,11 +594,6 @@ a {
   margin-top: 90px;
   margin-bottom: 70px;
   box-sizing: border-box;
-}
-
-.send-email-wrapper {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .OUR-LATEST-WORK {
@@ -586,14 +634,14 @@ a {
   margin-top: 80px;
 }
 
-/*our-skills
+/*skills
 */
 
-.OUR-SKILLS {
+.skills {
   font-size: 24px;
 }
 
-.OUR-SKILLS {
+.skills {
   text-align: center;
 }
 
@@ -602,6 +650,10 @@ a {
   text-align: right;
   padding-top: 25px;
   padding-bottom: 20px;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 .footer-layout {
