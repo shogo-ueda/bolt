@@ -1,0 +1,609 @@
+@media (max-width: 766px) {
+
+.bars {
+  display: block;
+}
+
+.bars {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  color: #ddd;
+  cursor: pointer;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  float: right;
+}
+
+.bars-open__link {
+  display: block;
+  background-color: #74cfae;
+  border: none;
+  font-size: 12px;
+  padding: 14px 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.bars:hover,.bars:active {
+  background-color: #ccc;
+}
+
+/*.contact-btntn {
+  display: none;
+}*/
+
+.work-comment {
+  font-size: 16px;
+  font-style: bold;
+}
+
+.smtp-comment-box {
+  text-align: center;
+  display:block;
+}
+
+.our-skill-flex,.sns-box,.OUR-SKILLS {
+  display: block;
+  text-align: center;
+}
+
+#our-skill-box {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.smtp-pict {
+  display:inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.smtp {
+  text-align: center;
+}
+
+.snses {
+  width: 185px;
+  line-height: 90px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.work-lower-box {
+  text-align: center;
+}
+
+.work-comment {
+  font-size: 16px; 
+  font-style: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.smtp-comment-box {
+  text-align: center;
+  display: block;
+}
+
+.smtp-comment-box,.smtp-pict {
+  margin: 0 auto;
+}
+
+.FREE-BOOTSTRAP-THEMES {
+    color: #c0c0c0;
+    font-size: 30px;
+    margin-bottom: 130px;
+    margin-top : 5px;
+}
+
+.Bolt-Theme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 250px;
+  word-break:break-all;
+}
+
+.snses:first-child {
+  margin-top: 50px;
+}
+
+.snses:last-child {
+  margin-bottom: 50px;
+}
+
+.snses {
+  width: 185px;
+  line-height: 90px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bars-open {
+  display: none;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bars-open.is-open {
+  display: block;
+}
+
+}
+
+/*ここまでスマホ*/
+
+@media screen and (min-width:767px) {
+
+
+.bars-open,.bars-outer,.bars {
+  display: none;
+}
+
+.contact-btn {
+  display: block;
+}
+
+.contact-btn {
+  float: right;
+  background-color: #74cfae;
+  border: none;
+  font-size: 12px;
+  padding: 14px 12px;
+  font-weight: 800;
+}
+
+.our-skill-flex,.sns-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+#our-skill-box {
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.common-our-skill {
+  margin-right: 180px;
+}
+
+/*.common-our-skill:last-child {
+  margin-right: -180px;
+}
+*/
+.work-comment {
+  font-size: 16px;
+  margin-right: 90px;
+  font-style: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.smtp-pict {
+  display:inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.smtp-comment-box {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.FREE-BOOTSTRAP-THEMES {
+  color: #c0c0c0;
+  font-size: 30px;
+  margin-bottom: 250px;
+}
+
+.Bolt-Theme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 340px;
+}
+
+.smtp-comment-box {
+  width: 30%;
+}
+
+.send-email-wrapper {
+margin-top: 40px;
+}
+
+.WHAT-WE-CAN-DO-text {
+  padding-bottom: 25px
+}
+
+.work-lower-box {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+}
+
+.margin-top-layout-upper,.margin-top-layout-lower {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.snses {
+  width: 185px;
+  line-height: 90px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.work-grid-middle {
+  margin: 0 100px;
+}
+
+.common-our-skill {
+  margin: 0 auto;
+}
+
+}
+
+/*ここまでpc*/
+
+  @media screen and 
+  (min-width: 767px) and 
+  (max-device-width: 1199px) {
+
+.bars {
+  display: block;
+}
+
+.bars {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  color: #ddd;
+  cursor: pointer;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  float: right;
+}
+
+.bars-open__link {
+  display: block;
+  background-color: #74cfae;
+  border: none;
+  font-size: 12px;
+  padding: 14px 12px;
+  font-weight: 800;
+}
+
+.bars:hover,.bars:active {
+  background-color: #ccc;
+}
+
+.contact-btntn {
+  display: none;
+}
+
+.work-comment {
+  font-size: 16px;
+  font-style: bold;
+}
+
+.smtp-comment-box {
+  text-align: center;
+  display:block;
+}
+
+.common-our-skill {
+  margin-right: 88px;
+  margin: 0 auto;
+}
+
+.sns-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+#our-skill-box {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.our-skill-flex,.OUR-SKILLS {
+  display: block;
+  text-align: center;
+}
+
+.smtp-pict {
+  display:inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.smtp {
+  text-align: center;
+}
+
+
+.work-lower-box {
+  text-align: center;
+}
+
+.work-comment {
+  font-size: 16px; 
+  font-style: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.smtp-comment-box {
+  text-align: center;
+  display: block;
+}
+
+.smtp-comment-box,.smtp-pict {
+  margin: 0 auto;
+}
+
+.FREE-BOOTSTRAP-THEMES {
+    color: #c0c0c0;
+    font-size: 30px;
+    margin-bottom: 130px;
+    margin-top : 5px;
+}
+
+.Bolt-Theme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 250px;
+  word-break:break-all;
+}
+
+.margin-top-layout-upper,.margin-top-layout-lower {
+  display: block;
+}
+
+.work-comment {
+  display: block;
+  margin: 0 auto;
+}
+
+.snses {
+  width: 185px;
+  line-height: 90px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+}
+
+/*タブレット
+*/.bolt-icon {
+  float: left;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.header-open {
+  height: 200px;
+  background-color: white;
+  bottom: -200px;
+}
+
+.smtp,.footer-layout {
+  background-color: #74cfae;
+  color: white;
+}
+
+.menu__btn {
+  display: none;
+}
+
+#our-skill-box{
+  background-color: #4e4e4e;
+}
+
+.header-layout {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 2017;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: white;
+}
+
+.work-grid-1 {
+  opacity: 0.7;
+}
+
+.work-grid-1:hover {
+  opacity: 1.0;
+}
+
+.comtact-btn:hover {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-weight: 800;
+}
+
+.snses:hover {
+  background-color: white;
+  width: 185px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.fa {
+  color: #74cfae;
+  font-size: 50px;
+}
+
+/*fixed-header
+*/
+.fa-bolt {
+  font-size: 60px;
+  color: #777777;
+}
+
+.fa-sns {
+  width: 185px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-box {
+  text-align: center;
+}
+
+/* */
+/*WHAT-WE-CAN-DO
+*/
+
+.WHAT-WE-CAN-DO {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.WHAT-WE-CAN-DO-text {
+  font-size: 20px;
+}
+
+.smtp-box {
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.iphone-img {
+  margin-top: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*OUR LATEST WORK 
+*/
+
+.work-lower-box {
+  margin-top: 90px;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+}
+
+.send-email-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.OUR-LATEST-WORK {
+  margin-top: 60px;
+  font-size: 24px;
+}
+
+/*.send-email-wrapper {
+}*/
+
+.send-email-btn {
+  color: white;
+  background-color: #74cfae;
+  border: none;
+  font-size: 12px;
+  padding: 14px 20px;
+  font-weight: 800;
+}
+
+.send-email-btn:hover {
+  color: #333;
+}
+
+/*.send-email-btn:action {
+  
+}*/
+
+.work-grid-box {
+  text-align: center;
+  color: #333;
+}
+
+.margin-top-layout-upper {
+  margin-top: 40px;
+}
+
+.margin-top-layout-lower {
+  margin-top: 80px;
+}
+
+/*our-skills
+*/
+
+.OUR-SKILLS {
+  font-size: 24px;
+}
+
+.OUR-SKILLS {
+  text-align: center;
+}
+
+.created-by {
+  color: white;
+  text-align: right;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.footer-layout {
+  box-sizing: border-box;
+}
